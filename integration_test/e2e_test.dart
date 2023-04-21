@@ -50,5 +50,6 @@ void main() {
     //проверяем стартовый экран
     expect(find.text('Стартовый экран'), findsOneWidget);
     expect(find.byType(HomeScreen), findsOneWidget);
+
   });
 }
